@@ -1,0 +1,14 @@
+The precipitation data belonging to the GPCP dataset, under the designation
+"gpcp_cdr_v23rB1_1981_2021.nc," encompass a substantial volume,
+which presents challenges in loading them within this application.
+
+However, to access this data, it is necessary to establish contact with
+the responsible author through the following web link: miguelangel.torres@um.es.
+
+As an alternative, acquiring the data is feasible through the provided link:
+https://psl.noaa.gov/data/gridded/data.gpcp.html.
+
+Should there be an interest in the SEAS5 dataset, it is available through
+the Copernicus Climate Data Store. Retrieval of this data can be accomplished
+by accessing the following web link:
+ https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset.
