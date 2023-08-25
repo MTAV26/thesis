@@ -1,16 +1,16 @@
 # Results of the Doctoral Thesis
 ## *"Predicción estacional de sequía meteorológica y su aplicación en incendios forestales"*
 
-In the following three chapters, corresponding to the outcomes of the doctoral thesis titled **"Seasonal Prediction of Meteorological Drought and its Application in Forest Fires,"** various resources are provided to the reader, contributing to the comprehension and analysis of the research. 
+In the following three chapters, corresponding to the outcomes of the doctoral thesis titled **"Seasonal Prediction of Meteorological Drought and its Application in Forest Fires,"** various resources are provided to the reader, contributing to the comprehension and analysis of the research.
 
 ### Chapter 3: Seguimiento y predicción probabilística de la sequía meteorológica de alta resolución en un entorno mediterráneo: 4SPAIN
-In this chapter, an empirical approach based on a hydrological model known as ESP (Twedt, 1977; Day, 1985) is implemented to forecast meteorological droughts within the scope of Spain. 
+In this chapter, an empirical approach based on a hydrological model known as ESP (Twedt, 1977; Day, 1985) is implemented to forecast meteorological droughts within the scope of Spain. Refer to Torres-Vázquez et al., (2023).
 
 ### Chapter 4: Predicciones probabilísticas de sequías meteorológicas basadas en condiciones iniciales múltiples: 4DROP
-Chapter 4 extends the application of the ESP method to make predictions of meteorological droughts on a global scale, utilizing eleven precipitation datasets from DROP (Turco et al., 2020). Additionally, a comparison is conducted with the advanced dynamic seasonal prediction model SEAS5, developed by the European Centre for Medium-Range Weather Forecasts (ECMWF), as documented by Johnson et al. (2019). The data, figures, and codes employed in this analysis are presented, supplied as supplementary material due to their volume and the constraints of incorporating them into the main body of the document. Refer to Torres-Vázquez et al., (2023).
+Chapter 4 extends the application of the ESP method to make predictions of meteorological droughts on a global scale, utilizing eleven precipitation datasets from DROP (Turco et al., 2020). Additionally, a comparison is conducted with the advanced dynamic seasonal prediction model SEAS5, developed by the European Centre for Medium-Range Weather Forecasts (ECMWF), as documented by Johnson et al. (2019). The data, figures, and codes employed in this analysis are presented, supplied as supplementary material due to their volume and the constraints of incorporating them into the main body of the document. 
 
 ### Chapter 5: Predicciones estacionales probabilísticas de la actividad global de los incendios basadas en observaciones climáticas iniciales múltiples: 4FIRE
-This chapter focuses on utilizing projections provided by SEAS5 in conjunction with the DROP datasets, with the aim of generating predictions regarding anomalies in areas affected by forest fires. This analysis follows the approach presented by Turco et al. (2018). The data, figures, and codes employed in this analysis are presented, supplied as supplementary material due to their volume and the constraints of incorporating them into the main body of the document. Refer to Torres-Vázquez et al., (2023).
+This chapter focuses on utilizing projections provided by SEAS5 in conjunction with the DROP datasets, with the aim of generating predictions regarding anomalies in areas affected by forest fires. This analysis follows the approach presented by Turco et al. (2018). The data, figures, and codes employed in this analysis are presented, supplied as supplementary material due to their volume and the constraints of incorporating them into the main body of the document.
 
 
 
