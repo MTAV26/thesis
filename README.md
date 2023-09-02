@@ -27,7 +27,7 @@ Chapter 4 extends the application of the ESP method to make predictions of meteo
 
 ### Chapter 5: Predicciones estacionales probabilísticas de la actividad global de los incendios basadas en observaciones climáticas iniciales múltiples: 4FIRE
 ### *Probabilistic Seasonal Predictions of Global Fire Activity Based on Multiple Initial Climate Observations: 4FIRE*
-This chapter focuses on utilizing projections provided by SEAS5 in conjunction with the DROP datasets, with the aim of generating predictions regarding anomalies in areas affected by forest fires. This analysis follows the approach presented by Turco et al. (2018). The data, figures, and codes employed in this analysis are presented, supplied as supplementary material due to their volume and the constraints of incorporating them into the main body of the document. For detailed information on the code and data, please refer to: https://github.com/MTAV26/thesis/blob/main/Chapter3-4FIRE/README.md
+This chapter focuses on utilizing projections provided by SEAS5 in conjunction with the DROP datasets, with the aim of generating predictions regarding anomalies in areas affected by forest fires. This analysis follows the approach presented by Turco et al. (2018). The data, figures, and codes employed in this analysis are presented, supplied as supplementary material due to their volume and the constraints of incorporating them into the main body of the document. For detailed information on the code and data, please refer to: https://github.com/MTAV26/thesis/blob/main/Chapter5-4FIRE/README.md
 
 
 
