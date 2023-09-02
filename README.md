@@ -1,16 +1,19 @@
-# <p align="center"> My doctoral thesis</p>
+
+<p align="center">
+  <img src="https://github.com/MTAV26/thesis/blob/main/logo.png" width="250" title="hover text">
+</p>
+
+<p align="center"> UNIVERSIDAD DE MURCIA.</p>
+<p align="center"> ESCUELA INTERNACIOANL DE DOCTORADO.</p>
+<p align="center"> TESIS DOCTORAL.</p>
 
 #  <p align="center"> **Predicción estacional de sequía meteorológica y su aplicación en incendios forestales.**</p>
 ### <p align="center"> Seasonal Prediction of Meteorological Drought and its Application in Forest Fires.</p>
 
-<p align="center">
-  <img src="[https://github.com/MTAV26/4DROP/blob/main/WarningLevels.png](https://github.com/MTAV26/thesis/blob/main/logo.png)" width="450" title="hover text">
-</p>
-
-
-<p align="center"> Miguel Ángel Torres-Vázquez; University of Murcia (miguelangel.torres@um.es).</p>
-<p align="center">Director: Juan Pedro Montávez Gómez; University of Murcia (montavez@um.es).</p>
-<p align="center">Director: Marco Turco; University of Murcia  (mturco@um.es).</p>
+<p align="center"> D. Miguel Ángel Torres-Vázquez (miguelangel.torres@um.es).</p>
+<p align="center"> 2023</p>
+<p align="center">Director: Juan Pedro Montávez Gómez(montavez@um.es).</p>
+<p align="center">Director: Marco Turco (mturco@um.es).</p>
 
 In the next three chapters, which constitute the results of the doctoral thesis titled "Seasonal Prediction of Meteorological Drought and its Application in Forest Fires," various resources are provided to enhance the understanding and analysis of the research. In addition to the information contained in the thesis book, we have made available to the reader a wide range of additional resources. These resources include data, codes, and supplementary images that, due to their extent, could not be included in the thesis book. The three web applications corresponding to 4SPAIN (chapter 3), 4DROP (chapter 4), and 4FIRE (chapter 5) are grouped together at the following web link: https://matv.shinyapps.io/APPS/.
 
