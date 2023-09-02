@@ -35,6 +35,10 @@ The following reference shows the data applied as predictors of 4DROP.
 
 The script files have been organized with the goal of facilitating reproducibility. They are first sorted alphabetically and then numerically. However, it's important to note that due to the absence of GPCP data, these scripts will not run unless you download the data or contact the corresponding author, as mentioned earlier. If you choose to download them from the website, you will need to adjust the resolution to 2.5°x2.5° and select only the period between 1981 and 2020. If you have any questions or wish to provide feedback to the authors, we encourage you to get in touch with Miguel Ángel Torres-Vázquez via the email address provided above.
 
+
+In the case of the SEAS5-related data, they are available through the Copernicus Climate Data Store. To obtain this data, access can be gained through the following web link: [https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset).  If you have any questions or wish to provide feedback to the authors, we encourage you to get in touch with Miguel Ángel Torres-Vázquez via the email address provided above.
+
+
 # 
 **B. Description of script files**
 Scripts for data preparation and cleaning.
