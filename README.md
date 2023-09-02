@@ -3,6 +3,11 @@
 #  <p align="center"> **Predicción estacional de sequía meteorológica y su aplicación en incendios forestales.**</p>
 ### <p align="center"> Seasonal Prediction of Meteorological Drought and its Application in Forest Fires.</p>
 
+<p align="center">
+  <img src="[https://github.com/MTAV26/4DROP/blob/main/WarningLevels.png](https://github.com/MTAV26/thesis/blob/main/logo.png)" width="450" title="hover text">
+</p>
+
+
 <p align="center"> Miguel Ángel Torres-Vázquez; University of Murcia (miguelangel.torres@um.es).</p>
 <p align="center">Director: Juan Pedro Montávez Gómez; University of Murcia (montavez@um.es).</p>
 <p align="center">Director: Marco Turco; University of Murcia  (mturco@um.es).</p>
