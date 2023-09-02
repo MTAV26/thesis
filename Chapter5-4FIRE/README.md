@@ -39,42 +39,49 @@ The script files have been organized with the goal of facilitating reproducibili
 In the case of the SEAS5-related data, they are available through the Copernicus Climate Data Store. To obtain this data, access can be gained through the following web link: [https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset).  If you have any questions or wish to provide feedback to the authors, we encourage you to get in touch with Miguel Ángel Torres-Vázquez via the email address provided above.
 
 
-# 
-**B. Description of script files**
+ 
+# **B. Description of script files**
+
 Scripts for data preparation and cleaning.
 
 **Development**
+
 - A1_Loop_load_SPI.R: Reads precipitation data and calculates SPI6 for the eleven members of DROP.
-- A1_load_DROP.R: Calculates the mean, spread, probability of moderate drought, and alert level for DROP.
-- B1_Forecast_ESP_loop.R: Calculates ESP predictions for December-January-February (DJF), March-April-May (MAM), June-July-August (JJA), September-October-November (SON).
-- B2_load_ESP.R: Calculates the mean, spread, probability of moderate drought, and alert level for 4DROP.
-- C1_Load_S5_raw_all_members.R: Combines all SEAS5 predictions.
-- C2_Load_S5_raw_ens.R: Same as above (this was a test).
-- C3_bias_adj_all_members.R: Adjusts bias in predictions for each of the DROP sets.
-- C4_Verify_S5_pre.R: Verifies that there are no errors with bias and correlation.
-- C5_Forecast_S5_loop.R: Calculates S5 predictions for DJF, MAM, JJA, SON.
-- C6_load_SEAS5.R: Calculates the mean, spread, probability of moderate drought, and alert level for S5.
+- A2_Load_SPI_DROP.R: Calculates the mean, spread, probability of moderate drought, and alert level for DROP.
+- B1_model_BA_spi_spi_seasons_ALL.R: Calculates the climate - burned area (CLIBA) model for the eleven datasets and for DROP (CLIBA-DROP).
+- image_mask.R: A function to obtain the mask (B1).
 
-**Deterministic validation**
-- D1_Verify_COR_ESP_loop.R: Calculates the correlation of 4DROP for DJF, MAM, JJA, SON.
-- D2_Verify_COR_SEAS5_loop.R: Calculates the correlation of S5 for DJF, MAM, JJA, SON.
-- D3_Verify_COR_ens_mean_mb_loop.R: Calculates the correlation of 4DROP and S5 members for DJF, MAM, JJA, SON.
-- D4_Boxplot_COR_detrended.R: Represents spatial correlation without trend in boxplot for 4DROP and S5 for DJF, MAM, JJA, SON.
-- D4_Boxplot_COR_original.R: Represents spatial correlation with trend in boxplot for 4DROP and S5 for DJF, MAM, JJA, SON.
-- D5_PLOT_COR.R: Represents spatial correlation maps of ESP(4DROP) and S5 for DJF, MAM, JJA, SON.
+- C1_Load_S5_raw_all_members.R: Reads raw SEAS5 data.
+- C2_bias_correction_all_members.R: Calculates bias correction for SEAS5.
+- C3_Forecast_SPI3_S5_loop_all.R: Calculates SPI3 predictions.
+- C4_Forecast_SPI6_S5_loop_all.R: Calculates SPI6 predictions.
+- C5_Forecast_SPI12_S5_loop_all.R: Calculates SPI12 predictions.
+- C6_Verify_cor_Forecast_S5_all.R: Calculates the correlation of S5 predictions with DROP.
 
-**Probabilistic verification**
-- E1_Verify_Reliability_loop.R: Calculates the reliability of predictions for 4DROP and S5 for DJF, MAM, JJA, SON and represents the attribute diagram plot.
-- E2_Boxplot_reliability.R: Represents reliability of predictions in boxplot for 4DROP and S5 for DJF, MAM, JJA, SON.
-- F1_Verify_ROC_loop.R: Calculates the skill of predictions for 4DROP and S5 for DJF, MAM, JJA, SON and represents the ROC plot.
-- F2_Boxplot_ROC.R: Represents the ROC of predictions in boxplot for 4DROP and S5 for DJF, MAM, JJA, SON.
-- G1_BS.R: Calculates the Brier Score of predictions for 4DROP and S5 for DJF, MAM, JJA, SON.
-- G2_BS_mb.R: Calculates the Brier Score of predictions for the members of 4DROP and S5 for DJF, MAM, JJA, SON.
-- G3_BS_plot.R: Represents the BS maps of 4DROP and S5 for DJF, MAM, JJA, SON.
+- D1_forecast_BA_ens_DJF.R: Calculates the climate - burned area (CLIBA) model for S5 predictions of the eleven DROP datasets and for the ensemble mean (CLIBA-4FIRE) in January-February-March (DJF).
+- D2_forecast_BA_ens_JJA.R: Calculates the climate - burned area (CLIBA) model for S5 predictions of the eleven DROP datasets and for the ensemble mean (CLIBA-4FIRE) in June-July-August (JJA).
+- D3_forecast_BA_ens_MAM.R: Calculates the climate - burned area (CLIBA) model for S5 predictions of the eleven DROP datasets and for the ensemble mean (CLIBA-4FIRE) in March-April-May (MAM).
+- D4_forecast_BA_ens_SON.R: Calculates the climate - burned area (CLIBA) model for S5 predictions of the eleven DROP datasets and for the ensemble mean (CLIBA-4FIRE) in September-October-November (SON).
 
-**Study case**
-- H1_Caso_Estudio.R: Represents the maps of SPI6 mean, spread, probability of moderate drought, and alert level for DROP, 4DROP, and S5.
-- H2_Caso_Estudio_Boxplot.R: Represents boxplots of SPI6 mean for DROP, 4DROP, and S5. In a grid over South America, with a lead time of two months for the entire time series 1981-2020 in JJA. Location: longitude = -63.75, latitude = -33.75.
+**plot**
+
+- F2_Plot_COR.R: Correlation between SPI predictions with MSWEP(S5) and the SPI of DROP for various lead times (1 to +4) in JJA and different accumulated time intervals (3, 6, and 12 months) during the period 2000-2020.
+- F3_plot_ROC_DROP.R: ROC area of BA predictions for the CLIBA-DROP model.
+- F4_plot_ROC_4FIRE.R: ROC area of burned area (BA) predictions for the CLIBA-4FIRE model.
+- F5_plot_matrix.R: Skill area percentage of the global burnable area provided by the CLIBA model with observations and seasonal predictions.
+- F6_Boxplot_DROP.R: Boxplots for different statistical skill methods of the CLIBA model using observations.
+- F6_Boxplot_4FIRE.R: Boxplots for different statistical skill methods of the CLIBA model using seasonal predictions.
+- F7_8_Plot_model_BA.R: Spatial distribution of parameters involved in the CLIBA model for one member of DROP (MSWEP), considering the four seasons and for coincident (CC) or antecedent (AC) climate variables.
+- Sup_A_plot_roc_drop_robin_all.R: ROC area of burned area predictions for the CLIBA model for the eleven observations of DROP and the CLIBA-DROP model.
+- Sup_B_plot_roc_4fire_robin_all.R: ROC area of burned area predictions for the CLIBA model for the eleven DROP datasets with S5 predictions and the CLIBA-4FIRE model.
+- Sup_C_plot_BS_DROP_robin_all.R: Brier Score of burned area predictions for the CLIBA model for the eleven observations of DROP and the CLIBA-DROP model.
+- Sup_D_plot_BS_4FIRE_robin_all.R: Brier Score of burned area predictions for the CLIBA model for the eleven DROP datasets with S5 predictions and the CLIBA-4FIRE model.
+- Sup_E_plot_BS_REL_DROP_robin_all.R: Reliability Brier Score of burned area predictions for the CLIBA model for the eleven observations of DROP and the CLIBA-DROP model.
+- Sup_F_plot_BS_REL_4FIRE_robin_all.R: Reliability Brier Score of burned area predictions for the CLIBA model for the eleven DROP datasets with S5 predictions and the CLIBA-4FIRE model.
+- Sup_G_plot_BS_RES_DROP_robin_all.R: Resolution Brier Score of burned area predictions for the CLIBA model for the eleven observations of DROP and the CLIBA-DROP model.
+- Sup_H_plot_BS_RES_4FIRE_robin_all.R: Resolution Brier Score of burned area predictions for the CLIBA model for the eleven DROP datasets with S5 predictions and the CLIBA-4FIRE model.
+
+
 
 In the "cammon" folder, you will find additional script files that are useful for the execution of the main script files described above. This folder corresponds to the .R files for DROP (Turco et al., 2020).
 
