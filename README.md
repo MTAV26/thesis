@@ -1,7 +1,8 @@
 # Results of the Doctoral Thesis
-## *"Predicción estacional de sequía meteorológica y su aplicación en incendios forestales"*
+# **Predicción estacional de sequía meteorológica y su aplicación en incendios forestales**
 
-In the following three chapters, corresponding to the outcomes of the doctoral thesis titled **"Seasonal Prediction of Meteorological Drought and its Application in Forest Fires,"** various resources are provided to the reader, contributing to the comprehension and analysis of the research.
+In the following three chapters, corresponding to the outcomes of the doctoral thesis titled **"Seasonal Prediction of Meteorological Drought and its Application in Forest Fires,"** various resources are provided to the reader, contributing to the comprehension and analysis of the research. 
+All the applications developed in chapters 3, 4, and 5 are available at the following web link: https://matv.shinyapps.io/APPS/
 
 ### Chapter 3: Seguimiento y predicción probabilística de la sequía meteorológica de alta resolución en un entorno mediterráneo: 4SPAIN
 In this chapter, an empirical approach based on a hydrological model known as ESP (Twedt, 1977; Day, 1985) is implemented to forecast meteorological droughts within the scope of Spain. Refer to Torres-Vázquez et al., (2023).
