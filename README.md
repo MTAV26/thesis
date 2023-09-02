@@ -38,6 +38,8 @@ Johnson, S. J., Stockdale, T. N., Ferranti, L., Balmaseda, M. A., Molteni, F., M
 
 Torres-Vázquez, M.  ́A., Halifa-Marín, A., Montávez, J. P., and Turco, M. (2023). High resolution monitoring and probabilistic prediction of meteorological drought in a mediterranean environment. Weather and Climate Extremes, 40:100558.
 
+Turco, M., Jerez, S., Doblas-Reyes, F. J., AghaKouchak, A., Llasat, M. C., & Provenzale, A. (2018). Skilful forecasting of global fire activity using seasonal climate predictions. Nature communications, 9(1), 1-9.
+
 Turco, M., Jerez, S., Donat, M. G., Toreti, A., Vicente-Serrano, S. M., and Doblas-Reyes, F. J. (2020). A global probabilistic dataset for monitoring meteorological droughts. Bulletin of the American Meteorological Society, 101(10):E1628–E1644.
 
 Twedt, T. M., Schaake Jr, J. C., and Peck, E. L. (1977). National weather service extended streamflow prediction [usa]. In Proceedings Western Snow Conference.
