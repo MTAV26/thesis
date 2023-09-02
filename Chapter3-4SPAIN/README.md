@@ -22,7 +22,7 @@ First, different precipitation datasets are compared after estimating meteorolog
 <br/>
 <br/>
 
-The script files have been organized with the aim of facilitating reproducibility. They are first sorted alphabetically and then numerically. If you have any questions or wish to provide feedback to the authors, we encourage you to contact Miguel Ángel Torres-Vázquez through the provided email address.
+The script files ("https://github.com/MTAV26/thesis/tree/main/Chapter3-4SPAIN/Script") have been organized with the aim of facilitating reproducibility. They are first sorted alphabetically and then numerically. If you have any questions or wish to provide feedback to the authors, we encourage you to contact Miguel Ángel Torres-Vázquez through the provided email address.
 
 # 
 **B. Description of script files**
