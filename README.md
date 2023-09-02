@@ -3,9 +3,9 @@
   <img src="https://github.com/MTAV26/thesis/blob/main/logo.png" width="250" title="hover text">
 </p>
 
-<p align="center"> UNIVERSIDAD DE MURCIA.</p>
-<p align="center"> ESCUELA INTERNACIOANL DE DOCTORADO.</p>
-<p align="center"> TESIS DOCTORAL.</p>
+<p align="center"> UNIVERSIDAD DE MURCIA</p>
+<p align="center"> ESCUELA INTERNACIOANL DE DOCTORADO</p>
+<p align="center"> TESIS DOCTORAL</p>
 
 #  <p align="center"> **Predicción estacional de sequía meteorológica y su aplicación en incendios forestales.**</p>
 ### <p align="center"> Seasonal Prediction of Meteorological Drought and its Application in Forest Fires.</p>
