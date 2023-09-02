@@ -80,3 +80,15 @@ In the "cammon" folder, you will find additional script files that are useful fo
 
 **References**
 Turco, M., Jerez, S., Donat, M. G., Toreti, A., Vicente-Serrano, S. M., & Doblas-Reyes, F. J. (2020). A global probabilistic dataset for monitoring meteorological droughts. Bulletin of the American Meteorological Society, 101(10), E1628-E1644.
+
+
+<br/>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Probabilistic forecasts for monitoring</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://matv.shinyapps.io/app_4DROP/" property="cc:attributionName" rel="cc:attributionURL">4DROP</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Reconocimiento-NoComercial 4.0 Internacional License</a>.
+
+<a href="http://cran.r-project.org/web/packages/shiny" target="_blank_">shiny</a>: Chang, W., Cheng J., Allaire, J.J., Xie, Y. & McPherson, J. (2013). shiny: Web Application Framework for R. R package version 1.7.5
+
+<a href="http://cran.r-project.org/web/packages/shinydashboard" target="_blank_">shinydashboard</a>: Chang, W. (2015). shinydashboard: Create Dashboards with Shiny. R package version 0.7.2
+
+
+
