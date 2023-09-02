@@ -1,4 +1,4 @@
-# <p align="center"> Results of the Doctoral Thesis</p>
+# <p align="center"> My doctoral thesis</p>
 
 #  <p align="center"> **Predicción estacional de sequía meteorológica y su aplicación en incendios forestales.**</p>
 ### <p align="center"> Seasonal Prediction of Meteorological Drought and its Application in Forest Fires.</p>
