@@ -153,28 +153,26 @@ for (isc in 1:length(time_scale)) {
     for (im in 1:dim(pred)[3]) {
       for (i in 1:dim(pred)[1]) {
         for (j in 1:dim(pred)[2]) {
-          # aux = pred[i, j, im, ,] #without ENS
-          aux = spi6pred[i, j, im] #without ENS
-          aux1 =spi6pred_prob[i, j, im]
-          
+          aux = pred[i, j, im, ,] #without ENS
+        
           if (sum(!is.na(aux))!=0) {
-            if (sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux1)) > 0 &
-                sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux1)) <= 0.25)  {
+            if (sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux)) > 0 &
+                sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux)) <= 0.25)  {
               spi6pred_tl[i, j, im] = 2 #yellow code
-            } else if (sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux1)) > 0.25 &
-                       sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux1)) <= 0.75)  {
+            } else if (sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux)) > 0.25 &
+                       sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux)) <= 0.75)  {
               spi6pred_tl[i, j, im] = 3 #orange code
-            } else if (sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux1)) > 0.75)  {
+            } else if (sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux)) > 0.75)  {
               spi6pred_tl[i, j, im] = 4 #red code
-            } else  if (sum(aux[!is.na(aux)] > -1.30 & aux[!is.na(aux)] <= -0.8) / sum(!is.na(aux1)) > 0 &
-                        sum(aux[!is.na(aux)] > -1.30 & aux[!is.na(aux)] <= -0.8) / sum(!is.na(aux1)) <= 0.5)  {
+            } else  if (sum(aux[!is.na(aux)] > -1.30 & aux[!is.na(aux)] <= -0.8) / sum(!is.na(aux)) > 0 &
+                        sum(aux[!is.na(aux)] > -1.30 & aux[!is.na(aux)] <= -0.8) / sum(!is.na(aux)) <= 0.5)  {
               spi6pred_tl[i, j, im] = 2 #yellow code
-            } else if (sum(aux[!is.na(aux)] > -1.30 & aux[!is.na(aux)] <= -0.8) / sum(!is.na(aux1)) > 0.5)  {
+            } else if (sum(aux[!is.na(aux)] > -1.30 & aux[!is.na(aux)] <= -0.8) / sum(!is.na(aux)) > 0.5)  {
               spi6pred_tl[i, j, im] = 3 #orange code
-            } else if (sum(aux[!is.na(aux)] > -0.8 & aux[!is.na(aux)] <= -0.5) / sum(!is.na(aux1)) > 0.5)  {
+            } else if (sum(aux[!is.na(aux)] > -0.8 & aux[!is.na(aux)] <= -0.5) / sum(!is.na(aux)) > 0.5)  {
               spi6pred_tl[i, j, im] = 2 #yellow code
-            } else  if (sum(aux[!is.na(aux)] > -0.8 & aux[!is.na(aux)] <= -0.5) / sum(!is.na(aux1)) > 0 &
-                        sum(aux[!is.na(aux)] > -0.8 & aux[!is.na(aux)] <= -0.5) / sum(!is.na(aux1)) <= 0.5)  {
+            } else  if (sum(aux[!is.na(aux)] > -0.8 & aux[!is.na(aux)] <= -0.5) / sum(!is.na(aux)) > 0 &
+                        sum(aux[!is.na(aux)] > -0.8 & aux[!is.na(aux)] <= -0.5) / sum(!is.na(aux)) <= 0.5)  {
               spi6pred_tl[i, j, im] = 1 #green code
             } else  {
               spi6pred_tl[i, j, im] = 1 #green code
