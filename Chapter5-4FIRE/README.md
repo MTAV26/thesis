@@ -47,7 +47,7 @@ Scripts for data preparation and cleaning.
 **Development**
 
 - A1_Loop_load_SPI.R: Reads precipitation data and calculates SPI6 for the eleven members of DROP.
-- A2_Load_SPI_DROP.R: Calculates the mean, spread, probability of moderate drought, and alert level for DROP.
+- A2_Load_SPI_DROP.R: Calculates the mean for DROP.
 - B1_model_BA_spi_spi_seasons_ALL.R: Calculates the climate - burned area (CLIBA) model for the eleven datasets and for DROP (CLIBA-DROP).
 - image_mask.R: A function to obtain the mask (B1).
 
