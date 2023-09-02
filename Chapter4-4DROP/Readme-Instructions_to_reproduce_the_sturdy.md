@@ -72,7 +72,6 @@ Scripts for data preparation and cleaning.
 - H1_Caso_Estudio.R: Represents the maps of SPI6 mean, spread, probability of moderate drought, and alert level for DROP, 4DROP, and S5.
 - H2_Caso_Estudio_Boxplot.R: Represents boxplots of SPI6 mean for DROP, 4DROP, and S5. In a grid over South America, with a lead time of two months for the entire time series 1981-2020 in JJA. Location: longitude = -63.75, latitude = -33.75.
 
-- 
 In the "cammon" folder, you will find additional script files that are useful for the execution of the main script files described above. This folder corresponds to the .R files for DROP (Turco et al., 2020).
 
 **References**
