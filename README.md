@@ -1,7 +1,7 @@
-# <p align="center"> Resultados de la tesis / Results of the Doctoral Thesis</p>
+# <p align="center"> Results of the Doctoral Thesis</p>
 
 #  <p align="center"> **Predicción estacional de sequía meteorológica y su aplicación en incendios forestales.**</p>
-# <p align="center"> *Seasonal Prediction of Meteorological Drought and its Application in Forest Fires.*</p>
+### <p align="center"> Seasonal Prediction of Meteorological Drought and its Application in Forest Fires.</p>
 
 <p align="center"> Miguel Ángel Torres-Vázquez; University of Murcia (miguelangel.torres@um.es).</p>
 <p align="center">Director: Juan Pedro Montávez Gómez; University of Murcia (montavez@um.es).</p>
@@ -11,7 +11,8 @@ In the next three chapters, which constitute the results of the doctoral thesis 
 
 ### Chapter 3: Seguimiento y predicción probabilística de la sequía meteorológica de alta resolución en un entorno mediterráneo: 4SPAIN
 ### *High-Resolution Monitoring and Probabilistic Prediction of Meteorological Drought in a Mediterranean Environment: 4SPAIN*
-In this chapter, we assess the quality of a prototype seasonal forecasting system for a Mediterranean region (peninsular Spain + Balearic Islands) to predict meteorological drought as measured by the standardised precipitation index (SPI). We first show that there is a high agreement between the official data provided by the Spanish Meteorological Agency and the state-of-the art ERA5 reanalysis, building confidence in using these datasets. Thus, since the ERA5 data are provided in near-real time as it is updated on a monthly basis, it can be used to monitor drought evolution. Then, we demonstrate that it is possible to obtain skilful and reliable seasonal drought predictions several months in advance by applying an ensemble-based streamflow prediction system (ESP; Twedt, 1977, Day, 1985) using ERA5 data as initial conditions. The results indicate that a statistical persistence-based model could lead to an actionable seasonal drought forecasting skill thus providing the basis for a cheap and fast prototype for drought early warning.  Refer to Torres-Vázquez et al., (2023).
+In this chapter, we assess the quality of a prototype seasonal forecasting system for a Mediterranean region (peninsular Spain + Balearic Islands) to predict meteorological drought as measured by the standardised precipitation index (SPI). We first show that there is a high agreement between the official data provided by the Spanish Meteorological Agency and the state-of-the art ERA5 reanalysis, building confidence in using these datasets. Thus, since the ERA5 data are provided in near-real time as it is updated on a monthly basis, it can be used to monitor drought evolution. Then, we demonstrate that it is possible to obtain skilful and reliable seasonal drought predictions several months in advance by applying an ensemble-based streamflow prediction system (ESP; Twedt, 1977, Day, 1985) using ERA5 data as initial conditions. The results indicate that a statistical persistence-based model could lead to an actionable seasonal drought forecasting skill thus providing the basis for a cheap and fast prototype for drought early warning.  Refer to 
+<a href="[https://www.sciencedirect.com/science/article/pii/S2212094723000117](https://www.sciencedirect.com/science/article/pii/S2212094723000117)" target="_blank_">Torres-Vázquez et al., (2023)</a>
 
 ### Chapter 4: Predicciones probabilísticas de sequías meteorológicas basadas en condiciones iniciales múltiples: 4DROP
 ### *Probabilistic Predictions of Meteorological Droughts Based on Multiple Initial Conditions: 4DROP*
