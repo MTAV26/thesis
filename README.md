@@ -7,8 +7,8 @@
 <p align="center"> ESCUELA INTERNACIOANL DE DOCTORADO</p>
 <p align="center"> TESIS DOCTORAL</p>
 
-#  <p align="center"> **Predicción estacional de sequía meteorológica y su aplicación en incendios forestales.**</p>
-### <p align="center"> Seasonal Prediction of Meteorological Drought and its Application in Forest Fires.</p>
+#  <p align="center"> **Predicción estacional de sequía meteorológica y  anomalía de la actividad de incendios.**</p>
+### <p align="center"> Seasonal prediction of meteorological drought and fire activity anomaly.</p>
 
 <p align="center"> D. Miguel Ángel Torres-Vázquez (miguelangel.torres@um.es).</p>
 <p align="center"> 2023</p>
